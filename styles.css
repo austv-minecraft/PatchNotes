@@ -11,3 +11,19 @@ body {
     font-weight: normal;
     font-style: normal;
 }
+
+.description-label {
+    margin-top: 0.9em;
+    font-size: 0.8em;
+    color: #b8bbc2;
+}
+
+.main-title {
+    font-weight: bold;
+    font-size: 4em;
+}
+
+.category-title {
+    font-weight: bold;
+    margin-top: 2em;
+}
