@@ -273,7 +273,7 @@
                 grandes servidores</span>, como Hypixel, Realms, etc. Veja o exemplo abaixo.</p>
             <button onclick="openVideo()" style="margin-top: 0.5em; text-align: center;">Assista ao Vídeo</button>
 
-            <!-- Div para o popup -->
+            <!-- Div popup -->
             <div id="videoPopup" class="overlay">
                 <div class="close-btn" onclick="closeVideo()">✖</div>
                 <iframe id="driveVideo" src="" frameborder="0" allow="autoplay"></iframe>
@@ -288,7 +288,7 @@
 
                 function closeVideo() {
                     document.getElementById("videoPopup").classList.remove("active");
-                    document.getElementById("driveVideo").src = ""; // Limpa o vídeo para parar a reprodução
+                    document.getElementById("driveVideo").src = "";
                 }
             </script>
         </div>
