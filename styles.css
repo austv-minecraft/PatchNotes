@@ -1,0 +1,13 @@
+body {
+    background-color: #171615;
+    color: white;
+    font-family: 'Minecraftia', sans-serif;
+    margin-top: 6rem;
+}
+
+@font-face {
+    font-family: 'Minecraftia';
+    src: url('/assets/fonts/Minecraftia-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
