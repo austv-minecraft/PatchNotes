@@ -5,6 +5,10 @@ body {
     margin-top: 6rem;
 }
 
+.img-fluid {
+    max-width: 60em;
+}
+
 @font-face {
     font-family: 'Minecraftia';
     src: url('/assets/fonts/Minecraftia-Regular.ttf') format('opentype');
@@ -25,5 +29,46 @@ body {
 
 .category-title {
     font-weight: bold;
-    margin-top: 2em;
+    margin-top: 4em;
+}
+
+.new-item {
+    margin-top: 3em;
+}
+
+.sub-itens {
+    margin-left: 1em;
+}
+
+/* Estilos para o popup */
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    /* Fundo semi-transparente */
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay iframe {
+    width: 80%;
+    height: 80%;
+}
+
+.overlay.active {
+    display: flex;
+    /* Mostra o popup */
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
 }
