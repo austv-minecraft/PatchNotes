@@ -5,6 +5,9 @@ body {
     margin-top: 6rem;
 }
 
+span {
+    color: #52A535;
+}
 .img-fluid {
     max-width: 60em;
 }
